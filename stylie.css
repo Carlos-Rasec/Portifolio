@@ -23,7 +23,7 @@
 
     .div1, .div2, .div3{
         border: #9c9395 2px solid;
-        border-radius: 10px;
+        border-radius: 10px;    
         display: flex;
         flex-direction: column;
         align-items: center;
