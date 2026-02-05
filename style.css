@@ -19,8 +19,7 @@ flex-wrap: wrap;
 }
 
 .bene{
-  width: 50%;
-  background-color:azure;
+  width: 50%;  
   border: solid black 1px;
   border-radius: 10px;
   flex: 1;
@@ -31,7 +30,6 @@ flex-wrap: wrap;
   flex-direction: column;
   justify-content: center; /* centraliza vertical */
   align-items: center;     /* centraliza horizontal */
-  background: #f5f5f5;
   border-radius: 12px;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   align-items: stretch; /* força todos iguais */
@@ -40,22 +38,24 @@ flex-wrap: wrap;
 
 .bene p {
   flex-grow: 1;
+  text-align: center;
 }
 
 
-
-
-
 .i{
-color: rgb(29, 27, 27);
+color: rgb(0, 0, 0);
 font-size: 40px;
 display: flex;
 justify-content: center;
 }
 
 
+/*texto em destaque*/
 
-
+.emphasis {
+  font-weight: bold;
+  text-align: center;
+}
 
 
 
@@ -217,5 +217,10 @@ justify-content: center;
 }
 
 
+/* Icones redes sociais */
 
-
+.wa{
+    font-size: 20px;
+    color: rgb(253, 254, 253);
+    margin-left: 15px;
+}
