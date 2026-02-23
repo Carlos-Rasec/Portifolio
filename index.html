@@ -27,9 +27,7 @@
                     <ul class="navbar-nav mx-auto mb-2 mb-md-0">
                         <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a> </li>
                         <li class="nav-item"> <a class="nav-link active" href="#sobre">Sobre</a> </li>
-                        <li class="nav-item"> <a class="nav-link active"
-                                href="https://wa.me/5584986276768?text=Olá!%20Quero%20mais%20informações%20sobre%20seus%20serviços."
-                                target="_blank">Contato</a> </li>
+                        <li class="nav-item"> <a class="nav-link active" href="#contact-section">Contato</a> </li>
                         <li class="nav-item"> <a class="nav-link active" href="#portifolio">Portfólio</a> </li>
                     </ul>
                     <div class="iconsmidea">
@@ -61,7 +59,9 @@
                     marca. Sistemas que impulsionam seu negócio.</p>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
 
-                    <a href="https://wa.me/5584986276768?text=Olá!%20Quero%20fazer%20um%20orçamento%20para%20meu%20site." target="_blank"><button type="button" class="btn btn-dark btn-lg px-4 me-md-2">Solicitar Orçamento!</button></a>
+                    <a href="https://wa.me/5584986276768?text=Olá!%20Quero%20fazer%20um%20orçamento%20para%20meu%20site."
+                        target="_blank"><button type="button" class="btn btn-dark btn-lg px-4 me-md-2">Solicitar
+                            Orçamento!</button></a>
 
                     <a href="#repaginar" class="btn btn-outline-secondary btn-lg px-4">
                         <i>Já possuo site...Quero melhorar!</i>
@@ -188,6 +188,7 @@
                 </a>
 
             </div>
+
             <div class="col-md-5 order-md-1"> <img src="img/pagisite.png"
                     class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto foto-sobre"
                     height="500" preserveAspectRatio="xMidYMid slice" role="img" width="500"
@@ -198,19 +199,45 @@
             </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="portifolio">
+
         <div class="row featurette">
             <div class="col-md-7">
-                <h2 class="featurette-heading fw-normal lh-1" id="portifolio">Estamos trabalhando nessa importante
+                <h2 class="featurette-heading fw-normal lh-1">Estamos trabalhando nessa importante
                     etapa. <span class="text-body-secondary">Aguarde!</span></h2>
                 <p class="lead"></p>
             </div>
             <div class="col-md-5"> </div>
         </div>
+
+
         <hr class="featurette-divider"> <!-- /END THE FEATURETTES -->
+
+        <section class="contact-section" id="contact-section">
+            <div class="contact">
+                <h2>Fale Comigo</h2>
+                <p class="subtitle">Vamos transformar sua ideia em código.</p>
+
+                <form action="https://formspree.io/f/xkovgelz" method="POST">
+                    <div class="input-group">
+                        <input type="email" name="email" required>
+                        <label>Seu Email</label>
+                    </div>
+
+                    <div class="input-group">
+                        <textarea name="message" required></textarea>
+                        <label>Sua Mensagem</label>
+                    </div>
+
+                    <button class="btn btn-dark btn-lg px-4 me-md-2" type="submit">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+
+        </div>
         </div>
 
-        <!-- /.container --> <!-- FOOTER -->
+
         <footer class="container">
 
             <p class="float-end"><a href="#">Back to top</a></p>

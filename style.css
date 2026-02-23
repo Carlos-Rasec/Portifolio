@@ -237,3 +237,118 @@ justify-content: center;
 }
 
 
+/* contatos */
+
+/* Fundo da seção */
+.contact-section {
+    min-height: 100vh;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Card principal */
+.contact {
+    background: #333;
+    padding: 50px 40px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 0 40px rgba(0, 140, 255, 0.15);
+    border: 1px solid rgba(0, 140, 255, 0.2);
+}
+
+/* Título */
+.contact h2 {
+    color: #fefefe;
+    margin-bottom: 5px;
+    font-size: 28px;
+}
+
+/* Subtítulo */
+.contact .subtitle {
+    color: #fefefe;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+/* Grupo input */
+.input-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+/* Inputs e textarea */
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 14px;
+    background: rgba(187, 186, 186, 0.951);
+    border: 1px solid #1e293b;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Textarea */
+.input-group textarea {
+    min-height: 120px;
+    resize: none;
+}
+
+/* Label flutuante */
+.input-group label {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    color: #64748b;
+    font-size: 14px;
+    pointer-events: none;
+    transition: 0.3s ease;
+}
+
+/* Animação label */
+.input-group input:focus + label,
+.input-group input:valid + label,
+.input-group textarea:focus + label,
+.input-group textarea:valid + label {
+    top: -10px;
+    left: 10px;
+    background: #111827;
+    padding: 0 6px;
+    font-size: 12px;
+    color: #fefefe;
+}
+
+/* Efeito focus */
+.input-group input:focus,
+.input-group textarea:focus {
+    border: 1px solid #00aaff;
+    box-shadow: 0 0 15px rgba(0, 170, 255, 0.3);
+}
+
+/* Botão */
+.contact button {
+    width: 100%;
+    padding: 14px;
+    border-radius: 14px;
+    border: none;
+    background: linear-gradient(90deg, #000);
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Hover botão */
+.contact button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0, 170, 255, 0.4);
+}
+
