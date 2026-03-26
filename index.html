@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="auto">
+<html lang="pt-BR" data-bs-theme="auto">
 
 <head>
     <meta charset="utf-8">
@@ -53,8 +53,7 @@
 
 
             <div class="container-fluid">
-                <a href="#"><img src="img/cace.png" alt="Logo Carlos Santos Developer"
-                        class="logo navbar-expand-md"></a>
+
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <span
@@ -68,15 +67,15 @@
                         <li class="nav-item"> <a class="nav-link active" href="#contact-section">Contato</a> </li>
 
                     </ul>
-                    <div class="iconsmidea">
+                    <div class="social-icons">
                         <a href="https://www.linkedin.com/in/carlos-santos-8a915a2b0" target="_blank"
-                            rel="noopener noreferrer"><i class="bi bi-linkedin wa"></i></a>
+                            rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
                         <a href="https://github.com/Carlos-Rasec" target="_blank" rel="noopener noreferrer"><i
-                                class="bi bi-github wa"></i></a>
+                                class="bi bi-github"></i></a>
                         <a href="https://wa.me/5584986276768" target="_blank" rel="noopener noreferrer"><i
-                                class="bi bi-whatsapp wa"></i></a>
+                                class="bi bi-whatsapp"></i></a>
                         <a href="https://www.instagram.com/c.cesar.lopess?igsh=Ym5xMTJvZXg2MWNv" target="_blank"
-                            rel="noopener noreferrer"><i class="bi bi-instagram wa"></i></a>
+                            rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
                     </div>
 
                 </div>
@@ -85,9 +84,9 @@
     </header>
 
     <main>
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col-10 col-sm-8 col-lg-6"> <img src="img/bootstrap-themes.png"
-                    class="d-block mx-lg-auto img-fluid foto-sobre" alt="Bootstrap Themes" width="700" height="500"
+        <section class="hero row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6"> <img src="assets/images/bootstrap-themes.png"
+                    class="d-block mx-lg-auto img-fluid hero-image" alt="Carlos Santos - Desenvolvedor Web" width="700" height="500"
                     loading="lazy">
             </div>
             <div class="col-lg-6">
@@ -107,12 +106,11 @@
                     </a>
                 </div>
             </div>
-        </div>
+        </section>
 
-
-        </div><!-- /.row --> <!-- START THE FEATURETTES -->
+        <!-- ABOUT SECTION -->
         <hr class="featurette-divider" id="sobre">
-        <div class="row featurette">
+        <section class="about row featurette">
             <div class="col-md-7">
                 <h2 class=""> Quem está por trás do seu próximo site? </h2>
                 <br>
@@ -149,64 +147,56 @@
                 </a>
 
             </div>
-            <div class="col-md-5"> <img src="img/fotoPerfil.png"
-                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto foto-sobre"
-                    height="500" preserveAspectRatio="xMidYMid slice" role="img" width="500">
+            <div class="col-md-5"> <img src="assets/images/fotoPerfil.png"
+                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto profile-image"
+                    alt="Foto de perfil - Carlos Santos" height="500" width="500">
             </div>
-        </div>
+        </section>
 
         <hr class="featurette-divider" id="repaginar">
-        <div class="row featurette">
+        <section class="repagination row featurette">
             <div class="col-md-7 order-md-2">
-                <h2 class="">Seu site representa seu negócio hoje?</h2><br>
+                <h2>Seu site representa seu negócio hoje?</h2><br>
                 <p class="lead">Muitos sites ainda estão no ar, mas deixaram de cumprir seu verdadeiro papel: gerar
                     oportunidades e transmitir credibilidade.
                     Um site desatualizado, lento ou que não funciona bem no celular pode afastar clientes antes mesmo do
                     primeiro contato.</p>
-                <h3><span class="">Benefícios da repaginação:</span></h3> <br>
+                <h3>Benefícios da repaginação:</h3> <br>
 
-                <div class="beneficios">
+                <div class="benefits-grid">
 
-                    <div class="bene box">
-                        <i class="bi bi-graph-up-arrow i"></i>
-                        <p class="emphasis">Mais performance</p>
+                    <article class="benefit-card benefit-card--performance">
+                        <i class="bi bi-graph-up-arrow benefit-icon"></i>
+                        <h4>Mais performance</h4>
                         <p class="lead">Sites mais rápidos melhoram a experiência do usuário e o posicionamento no
                             Google.
                         </p>
-                        <br>
-                    </div>
+                    </article>
 
-                    <div class="bene box">
-                        <i class="bi bi-phone i"></i>
-                        <p class="emphasis"> Responsividade real </p>
-
+                    <article class="benefit-card benefit-card--responsive">
+                        <i class="bi bi-phone benefit-icon"></i>
+                        <h4>Responsividade real</h4>
                         <p class="lead">Seu site adaptado perfeitamente para celular, tablet e desktop.</p>
-                        <br>
-                    </div>
+                    </article>
 
-                    <div class="bene box">
-                        <i class="bi bi-crosshair2 i"></i>
-                        <p class="emphasis"> Mais conversão </p>
-
+                    <article class="benefit-card benefit-card--conversion">
+                        <i class="bi bi-crosshair2 benefit-icon"></i>
+                        <h4>Mais conversão</h4>
                         <p class="lead">Estrutura pensada para guiar o visitante à ação: contato, orçamento ou venda.
                         </p>
-                        <br>
-                    </div>
+                    </article>
 
-                    <div class="bene box">
-                        <i class="bi bi-layout-text-window i"></i>
-                        <p class="emphasis">Visual moderno e profissional</p>
-                        <p class="lead">Um design alinhado à sua marca transmite confiança e autoridade.</p> <br>
-                    </div>
+                    <article class="benefit-card benefit-card--design">
+                        <i class="bi bi-layout-text-window benefit-icon"></i>
+                        <h4>Visual moderno e profissional</h4>
+                        <p class="lead">Um design alinhado à sua marca transmite confiança e autoridade.</p>
+                    </article>
 
-                    <div class="bene box">
-                        <i class="bi bi-fingerprint i"></i>
-
-                        <p class="emphasis"> Mais segurança e estabilidade </p>
-
-                        <p class="lead">Código atualizado, boas práticas e estrutura preparada para crescer. <br><br>
-                        </p>
-                    </div>
+                    <article class="benefit-card benefit-card--security">
+                        <i class="bi bi-fingerprint benefit-icon"></i>
+                        <h4>Mais segurança e estabilidade</h4>
+                        <p class="lead">Código atualizado, boas práticas e estrutura preparada para crescer.</p>
+                    </article>
                 </div>
                 <br>
                 <p class="lead">
@@ -226,26 +216,20 @@
 
             </div>
 
-            <div class="col-md-5 order-md-1"> <img src="img/pagisite.png"
-                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto foto-sobre"
-                    height="500" preserveAspectRatio="xMidYMid slice" role="img" width="500"
-                    xmlns="http://www.w3.org/2000/svg">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect>
-                </img>
+            <div class="col-md-5 order-md-1"> <img src="assets/images/pagisite.png"
+                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto repagination-image"
+                    alt="Ilustração de repaginação de sites" height="500" width="500">
             </div>
-        </div>
+        </section>
 
         <hr class="featurette-divider" id="portifolio">
 
-        <div class="row featurette">
+        <section class="portfolio row featurette">
             <div class="col-md-7">
                 <h2 class="featurette-heading fw-normal lh-1">Estamos trabalhando nessa importante
                     etapa. <span class="text-body-secondary">Aguarde!</span></h2>
-                <p class="lead"></p>
             </div>
-            <div class="col-md-5"> </div>
-        </div>
+        </section>
 
 
         <hr class="featurette-divider"> <!-- /END THE FEATURETTES -->
@@ -275,10 +259,11 @@
         </div>
 
 
-        <footer class="container">
-
-            <p class="float-end"><a href="#">Back to top</a></p>
-
+        <footer class="site-footer">
+            <div class="container">
+                <p class="footer-credit">© 2026 Carlos Santos - Desenvolvedor Web</p>
+                <p class="float-end"><a href="#" class="back-to-top">Voltar ao topo</a></p>
+            </div>
         </footer>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
